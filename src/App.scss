@@ -1,0 +1,46 @@
+/* mixins */
+@mixin unlist() {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* utility classes */
+.center {
+  text-align: center;
+}
+
+
+/* modules */
+header {
+	margin-top: 40px;
+}
+
+
+
+.network {
+	ul {
+		@include unlist;
+		display: flex;
+		justify-content: space-between;
+		max-width: 200px;
+	}
+}
+
+.arts {
+	ul {
+		@include unlist;
+		display: flex;
+		flex-wrap: wrap;		
+	}
+	li {
+		flex: 1 0 21%; /* explanation below */
+	}
+}
+
+
+.work {
+	.inactive {
+		text-decoration: line-through;
+	}
+}
