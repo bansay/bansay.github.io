@@ -8,35 +8,35 @@ library.add(fab);
 
 const socials = [
   {
-    href : "https://www.instagram.com/brittansay/", 
-    title : "Instagram", 
+    href : "https://www.instagram.com/brittansay/",
+    title : "Instagram",
     icon : ['fab', 'instagram']
-  },      
+  },
   {
-    href : "https://ello.co/britt", 
-    title : "Ello", 
+    href : "https://ello.co/britt",
+    title : "Ello",
     icon : ['fab', 'ello']
   },
   {
-    href : "https://www.linkedin.com/in/bansay", 
-    title : "LinkedIn", 
+    href : "https://www.linkedin.com/in/bansay",
+    title : "LinkedIn",
     icon : ['fab', 'linkedin']
-  },    
+  },
   {
-    href : "https://twitter.com/brittansay", 
-    title : "Twitter", 
+    href : "https://twitter.com/brittansay",
+    title : "Twitter",
     icon : ['fab', 'twitter']
-  },  
+  },
   {
-    href : "https://github.com/bansay", 
-    title : "Github", 
+    href : "https://github.com/bansay",
+    title : "Github",
     icon : ['fab', 'github']
   },
   {
-    href : "https://soundcloud.com/bansay", 
-    title : "Soundcloud", 
+    href : "https://soundcloud.com/bansay",
+    title : "Soundcloud",
     icon : ['fab', 'soundcloud']
-  },        
+  },
 ];
 
 class Network extends Component {
@@ -46,9 +46,10 @@ class Network extends Component {
         <Container>
         	<Row>
         		<Col xs="12" sm="3">
-        			<h2>Social Networks</h2>             
+        			<h2>Social</h2>
         		</Col>
             <Col xs="12" sm="9">
+              <p>Find me in other places on the web:</p>
               <ul>
                 {
                   socials.map(social=>(
@@ -58,12 +59,12 @@ class Network extends Component {
                       </a>
                     </li>
                   ))
-                }  
+                }
               </ul>
             </Col>
           </Row>
         </Container>
-        <hr />            
+        <hr />
       </div>
     );
   }

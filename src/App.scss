@@ -14,6 +14,35 @@
 /* modules */
 header {
 	margin-top: 40px;
+	h1 {
+		margin: 0;
+	}
+	strong {
+		display: block;
+		margin-bottom: 1.5rem;
+	}
+}
+nav {
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	a.active {
+		.btn {
+			color: #fff;
+			background-color: #6c757d;
+			border-color: #6c757d;
+		}
+	}
+	@media only screen and (max-width: 640px) {
+		.btn {
+			font-size: .7rem;
+			font-weight: 700;
+		}
+	}
 }
 
 
@@ -31,7 +60,7 @@ header {
 	ul {
 		@include unlist;
 		display: flex;
-		flex-wrap: wrap;		
+		flex-wrap: wrap;
 	}
 	li {
 		flex: 1 0 21%; /* explanation below */
