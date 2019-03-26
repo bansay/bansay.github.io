@@ -22,6 +22,7 @@ header {
 		margin-bottom: 1.5rem;
 	}
 }
+
 nav {
 	ul {
 		list-style-type: none;
@@ -45,7 +46,35 @@ nav {
 	}
 }
 
+.arts {
+	img {
+		max-width: 100%;
+	}
+	ul {
+		@include unlist;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	li {
+		flex: 2 0 30%; /* explanation below */
+		padding: 0 0 0 3%;
+	}
+	p {
+		line-height: 1;
+		margin: .5rem 0 1rem;
 
+	}
+	@media only screen and (max-width: 640px) {
+		li {
+			flex: 2 0 45%; /* explanation below */
+			padding: 0 0 0 5%;
+		}
+		p {
+			font-size: .7rem;
+			font-weight: 700;
+		}
+	}
+}
 
 .network {
 	ul {
@@ -55,18 +84,6 @@ nav {
 		max-width: 200px;
 	}
 }
-
-.arts {
-	ul {
-		@include unlist;
-		display: flex;
-		flex-wrap: wrap;
-	}
-	li {
-		flex: 1 0 21%; /* explanation below */
-	}
-}
-
 
 .work {
 	.inactive {
