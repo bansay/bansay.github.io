@@ -12,7 +12,7 @@ class GeneralContact extends Component {
             </Col>
             <Col xs="12" sm="9">
               <p>I respond quickly to emails so feel free to reach out.</p>
-              <a href="mailto:britt.ansay@gmail.com" target="_blank">britt.ansay@gmail.com</a>
+              <a href="mailto:britt.ansay@gmail.com" target="_blank" rel="noopener noreferrer">britt.ansay@gmail.com</a>
             </Col>
           </Row>
         </Container>
