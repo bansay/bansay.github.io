@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+::selection {
+	background: #6c757d;
+	color: white;
+}
+
 
 /* modules */
 header {
@@ -86,6 +91,12 @@ nav {
 }
 
 .work {
+	li {
+		margin-bottom: 1rem;
+		h4 {
+			margin-bottom: 0;
+		}
+	}
 	.inactive {
 		text-decoration: line-through;
 	}

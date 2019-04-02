@@ -11,11 +11,11 @@ class Intro extends Component {
               <h2>Hello World</h2>
             </Col>
             <Col xs="12" sm="9">
-              <p>Brittany Ansay is a full-stack web developer based in Colorado. She has been writing code professionally since 2012. She's a fanatic about the internet of things and enjoys working on products that create social impact.</p>
-            </Col>            
+              <p>Brittany Ansay is a full-stack web developer based in Colorado. She has been writing code professionally since 2012. With an artist background, her attention to detail is of stellar nature when it comes to the world wide web. She's a fanatic about the "Internet of Things" and enjoys working on products that create social impact.</p>
+            </Col>
           </Row>
         </Container>
-        <hr />        
+        <hr />
       </div>
     );
   }

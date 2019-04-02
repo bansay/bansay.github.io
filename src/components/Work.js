@@ -4,6 +4,14 @@ import WorkItems from './WorkItems';
 
 const workItems = [
   {
+    name : "Frasier Meadows",
+    url : "https://www.frasiermeadows.org/",
+    activeState : true,
+    agency : "Vermilion",
+    year: "2018",
+    notes: "Full-Stack, WordPress Website Redesign"
+  },
+  {
     name : "University Center for Atmospheric Research (UCAR)",
     url : "https://ncar.ucar.edu/",
     activeState : true,
@@ -18,7 +26,7 @@ const workItems = [
     agency : "Vermilion",
     year: "2018",
     notes: "Frontend Only"
-  },  
+  },
   {
     name : "Achievement First",
     url : "https://www.achievementfirst.org/",
@@ -34,7 +42,7 @@ const workItems = [
     agency : "Vermilion",
     year: "2018",
     notes: "Web Maintenance"
-  },  
+  },
   {
     name : "Mott Foundation",
     url : "https://mott.org/",
@@ -74,7 +82,7 @@ const workItems = [
     agency : "Vermilion",
     year: "2017",
     notes: "Web Maintenance"
-  }, 
+  },
   {
     name : "Coaching Corps",
     url : "https://www.coachingcorps.org/",
@@ -210,7 +218,7 @@ const workItems = [
     agency : "Vermilion",
     year: "2015",
     notes: "Full-Stack, WordPress Website Redesign"
-  }, 
+  },
   {
     name : "Beforeplay Prime Time Sex Quiz",
     url : "https://www.facebook.com/beforeplay/app_190322544333196",
@@ -258,7 +266,7 @@ const workItems = [
     agency : "Vermilion",
     year: "2014",
     notes: "Web Maintenance"
-  }, 
+  },
   {
     name : "Tendril",
     url : "#",
@@ -298,7 +306,7 @@ const workItems = [
     agency : "Vermilion",
     year: "2014",
     notes: "Web App"
-  }, 
+  },
   {
     name : "Opower: BDR Potential Microsite (Oracle)",
     url : "#",
@@ -306,7 +314,7 @@ const workItems = [
     agency : "Vermilion",
     year: "2014",
     notes: "Web App"
-  }, 
+  },
   {
     name : "Pledge 1 Percent",
     url : "#",
@@ -346,7 +354,7 @@ const workItems = [
     agency : "SpireMedia",
     year: "2013",
     notes: "Frontend Only"
-  },  
+  },
   {
     name : "In-State Angels",
     url : "#",
@@ -362,7 +370,7 @@ const workItems = [
     agency : "Via Foci",
     year: "2013",
     notes: "Full-Stack, WordPress Website Redesign"
-  },                                                                        
+  },
 ];
 
 
@@ -396,17 +404,17 @@ class WorkPortfolio extends React.Component {
         <Container>
           <Row>
             <Col xs="12" sm="3">
-              <h2>Work Portfolio</h2>             
+              <h2>Work Portfolio</h2>
             </Col>
             <Col xs="12" sm="9">
             <p>The majority of past work includes building custom WordPress themes and plugins. In recent projects, Brittany has turned her attention to mastering JavaScript and using various tools including ReactJS and Redux.</p>
             <p>In the list of work below, a line-through indicates the project is no longer active.</p>
             {button}
-            <WorkPortfolioCheck isShowing={isShowing} />               
+            <WorkPortfolioCheck isShowing={isShowing} />
             </Col>
           </Row>
         </Container>
-        <hr />            
+        <hr />
       </div>
     );
   }
@@ -418,7 +426,7 @@ function WorkPortfolioCheck(props) {
     return (<WorkItems workPortfolioItems={workItems} />);
   } else {
     return null;
-  } 
+  }
 }
 
 
