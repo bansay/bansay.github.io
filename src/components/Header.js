@@ -14,10 +14,11 @@ class Header extends Component {
         		</Col>
             <Col xs="12" sm="9">
               <h1>Brittany Ansay</h1>
-              <strong>Principal at Via Foci</strong>
+              <strong>Full-Stack Web Developer. </strong>
+              <span>Principal at Via Foci</span>              
             </Col>
           </Row>
-        </Container>                  
+        </Container>
       </header>
     );
   }

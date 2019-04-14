@@ -60,6 +60,14 @@ const workItems = [
     notes: "Full-Stack, WordPress Website Redesign"
   },
   {
+    name : "Boulder Shelter for the Homeless",
+    url : "https://bouldershelter.org/",
+    activeState : true,
+    agency : "Vermilion",
+    year: "2017",
+    notes: "Full-Stack, WordPress Website Redesign"
+  },
+  {
     name : "Cain Travel",
     url : "https://caintravel.com",
     activeState : true,
@@ -340,6 +348,22 @@ const workItems = [
     notes: "Web Maintenance"
   },
   {
+    name : "Loveland Products",
+    url : "https://www.lovelandproducts.com/",
+    activeState : true,
+    agency : "SpireMedia",
+    year: "2013",
+    notes: "Frontend, Drupal Theme"
+  },
+  {
+    name : "Next Generation Learning Challenges",
+    url : "#",
+    activeState : false,
+    agency : "SpireMedia",
+    year: "2013",
+    notes: "Frontend, Drupal Theme"
+  },
+  {
     name : "Paqui Tequila",
     url : "#",
     activeState : false,
@@ -354,6 +378,14 @@ const workItems = [
     agency : "SpireMedia",
     year: "2013",
     notes: "Frontend Only"
+  },
+  {
+    name : "Orange Grove Gallery",
+    url : "http://orangegrovegallery.com/",
+    activeState : true,
+    agency : "Via Foci",
+    year: "2013",
+    notes: "Full-Stack, WordPress Website Redesign"
   },
   {
     name : "In-State Angels",
